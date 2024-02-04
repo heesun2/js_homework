@@ -77,7 +77,7 @@ function handleSubmit(event){ //event 객체를 떨궈주는 역할인 e
   event.preventDefault(); // 객체를 떨궈주는 역할인 e의 preventDefault 기능을 사용
   
   /**만약 사용자가 입력한 id값과 pw값이 모두 true를 반환 한다면 'welcome.html' 페이지로 이동한다 */
-    if(itemsid && itemspw){
+    if(itemsid && itemspw ){
       console.log('참');
       window.location.href = 'welcome.html';
     }
